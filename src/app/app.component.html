@@ -1,0 +1,11 @@
+<div class="">
+  <app-search-bar (searchButtonClick)="incrementeCount()" />
+  Click count : {{count}}
+</div>
+
+<!-- Card list section -->
+<div id="card-list">
+  <app-playing-card  />
+  <app-playing-card [my-monster]="monster1" />
+</div>
+
